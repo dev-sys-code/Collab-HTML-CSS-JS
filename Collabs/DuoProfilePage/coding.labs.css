@@ -1,0 +1,50 @@
+body {
+    background-color: beige;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile {
+    justify-content: space-between;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20%;
+}
+
+.profilepics {
+    display: flex;
+    justify-content: center;
+    margin: -65px auto;
+}
+
+.main {
+    display: inline-block;
+    margin: 100px auto;
+    padding: 15px;
+    background-color: #E85D5D;
+    box-shadow: 0 3px 50px rgb(0, 0, 0, 0.5);
+    border-radius: 15px;
+    width: 350px;
+    height: 400px;
+}
+.buttons {
+    display: flex;
+    margin: -15px auto;
+    flex-direction: column;
+    width: 200px;
+}
+
+.indbutton {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: white;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 3px 50px rgb(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+.indbutton:hover {
+    transform: scale(1.05);
+}
