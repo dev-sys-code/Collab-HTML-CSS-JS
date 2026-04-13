@@ -4,7 +4,7 @@ body {
     margin: 100px auto;
     background: linear-gradient(to right, #5B7FFF, #33ccfc);
     font-family: cursive;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .main-box {
     display:flex;
