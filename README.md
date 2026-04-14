@@ -10,4 +10,4 @@ This repo contains our web development practices
 - Duo-profile Page
 - Single-profile Page
 - Product page
-- AI (UI)
+- Chat Bot UI
