@@ -1,120 +1,106 @@
 body {
     display: flex;
-    justify-content: center;
-    margin: 100px auto;
-    background: linear-gradient(to right, #5B7FFF, #33ccfc);
-    font-family: cursive;
-    color: rgb(255, 255, 255);
-}
-.main-box {
-    display:flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    height: 100vh;
+    background: linear-gradient(to bottom right,  #8BA7F7  , #AF7EFC);
+    color: white;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(255, 255, 255, 0.3);
     backdrop-filter: blur(7px);
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 25px;
-    padding:10px;
-    text-align: center;
-    box-shadow: 0 0 10px black;
-    width: 550px;
-    height: 650px;
-    transition: all 0.3s ease;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 20px;
+    width: 60%;
+    height: 60%;
 }
 
-.main-box:hover {
-    box-shadow: 0 0 10px #33ccfc;
+.individual-button {
+    background-color: rgb(255, 255, 255, 0.3);
+    padding: 10px;
+    width: 50%;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    font-size: large;
+    box-shadow: 0 0 3px black;
+}
+
+.login-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;    
+}
+
+.input-lbls {
+    display: flex;
+    flex-direction: column;
 }
 
 .inputs {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.inp-box {
-    width: 250px ;
-    padding: 15px;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.3);
-    margin: 0 0 15px 0;
-    color: black;
-    border: 1px solid white;
-    box-shadow: 0 0 5px black;
-    transition: all 0.3s ease;
-}
-
-.inp-box:hover {
-    transform: scale(1.03);
-}
-
-.inp-box::placeholder {
-    color: rgb(0, 0, 0);
-}
-
-label {
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    font-size: 12px;
-    margin: 5px;
-}
-
-.external-login {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 120px;
     gap: 15px;
+    width: 75%;
+
 }
 
-.google, .microsoft {
+.txt-inpts {
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+
+.input-output-mixed {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.external-login-individual-div {
+    background-color: rgb(255, 255, 255, 0.3);
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0 0 3px black;
+    width: 45%;
+    height: 20%;
     display: flex;
     align-items: center;
-    justify-content: start;
-    background-color: rgba(255, 255, 255, 0.3);
-    padding: 10px 20px;
-    width: 270px;
-    border-radius: 30px;
-    border: 1px solid white;
-    box-shadow: 0 0 5px black;
-    height: 30px;
-    transition: all 0.3s ease;
+    justify-self: center;
+    gap: 10px;
 }
-
-.google:hover, .microsoft:hover {
-    transform: scale(1.03);
-}
-
-.logo {
-    padding: 15px;
-    justify-content: flex-start;
-}
-
-.login {
-    width: 150px ;
-    padding: 12px;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.3);
-    margin: 0 0 15px 0;
-    color: black;
-    border: 1px solid white;
-    box-shadow: 0 0 5px black;
-    transition: all 0.3s ease;
-}
-
-.login:hover {
-    transform: scale(1.03);
-}
-
-.Login-btn {
-    display: flex;
-    justify-content: center;
-
-}
-
-.F-P-C-A {
+.external-logins {
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    margin: 15px auto;
-} 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.no-account-register {
+    padding-bottom: 25px;
+}
